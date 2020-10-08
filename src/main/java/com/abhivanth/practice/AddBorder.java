@@ -1,4 +1,4 @@
-package codeignal;
+package com.abhivanth.practice;
 
 import java.awt.List;
 import java.util.ArrayList;
@@ -6,8 +6,10 @@ import java.util.Arrays;
 
 public class AddBorder {
 	String[] addBorder(String[] picture) {
-		ArrayList<String> mylist = new ArrayList<>(Arrays.asList(picture));
+
+		ArrayList<String> mylist = new ArrayList(Arrays.asList(picture));
 		String star = "*";
+
 		
 		mylist.add(0,"      ");
 		mylist.add(picture.length+1,"      ");

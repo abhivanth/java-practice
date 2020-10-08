@@ -1,4 +1,4 @@
-package codeignal;
+package com.abhivanth.practice;
 
 public class AlternateSum {
 	int[] evenOddSums(int[] a) {
