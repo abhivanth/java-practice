@@ -1,15 +1,24 @@
 package com.abhivanth.practice;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class demo {
 
 	public static void main(String[] args) {
+
+		String[] input = {"abcd",
+				"abcd",
+				"abcd"};
+		int length = input[0].length();
+
+		ArrayList<String> mylist = new ArrayList(Arrays.asList(input));
+
+		mylist.add(0,"*".repeat(length));
+		System.out.println(mylist);
 		// TODO Auto-generated method stub
-		StringBuilder demo = new StringBuilder();
-		demo.insert(0, "a");
-		demo.insert(0,"b");
-		demo.insert(0,"i");
+
 		
-		System.out.println(demo.toString());
 
 	}
 
