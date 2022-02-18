@@ -21,5 +21,6 @@ public class PalindromeRearranging {
     public static void main(String[] args) {
         PalindromeRearranging p=new PalindromeRearranging();
         System.out.println(p.palindromeRearranging("aabb"));
+
     }
 }
